@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EcommerceConcept</string>
+    <string name="ecommerce">Ecommerce \nConcept</string>
+    <string name="location">Zihuatanejo, Gro</string>
+    <string name="select_category">Select Category</string>
+    <string name="view_all">view all</string>
+    <string name="search">Search</string>
+    <string name="hot_sales">Hot sales</string>
+    <string name="best_sales">Best sales</string>
+    <string name="see_more">See more</string>
+
+
+</resources>
