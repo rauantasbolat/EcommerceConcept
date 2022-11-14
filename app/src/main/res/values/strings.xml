@@ -9,6 +9,21 @@
     <string name="best_sales">Best sales</string>
     <string name="see_more">See more</string>
     <string name="buy_now">Buy now!</string>
+    <string name="filter_options">Filter options</string>
+    <string name="button_done">Done</string>
+    <string name="filter_brand">Brand</string>
+    <string name="filter_price">Price</string>
+    <string name="filter_size">Size</string>
+    <string name="choose_brand">Choose brand</string>
+    <string name="choose_price">Choose price</string>
+    <string name="checkout">Checkout</string>
+    <string name="total_price">Total</string>
+    <string name="delivery">Delivery</string>
+    <string name="choose_size">Choose size</string>
+    <string name="my_cart">My cart</string>
+    <string name="add_address">Add address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

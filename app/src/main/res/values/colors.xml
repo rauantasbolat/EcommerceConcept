@@ -10,5 +10,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorPurple">#010035</color>
     <color name="colorOrange">#FF6E4E</color>
+    <color name="colorDivider">#949494</color>
 
 </resources>

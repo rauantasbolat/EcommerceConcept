@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPurple">
+
+    <LinearLayout
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/orderItemImage"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:tag="IMAGE"
+            app:riv_corner_radius="10dp"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/mark_pro"
+                android:text="Galaxy Note20 Ultra"
+                android:textColor="@color/white"
+                android:textFontWeight="500"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/mark_pro"
+                android:minLines="2"
+                android:text="$3000"
+                android:textColor="@color/colorOrange"
+                android:textFontWeight="500"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="33dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_increment">
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/ic_minus"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/mark_pro"
+            android:textColor="@color/white"
+            android:textFontWeight="600"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/ic_plus"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>
