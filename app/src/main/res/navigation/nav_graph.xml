@@ -16,7 +16,15 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment2_to_productDetailsFragment"
+            android:id="@+id/action_mainFragment_to_productDetailsFragment"
             app:destination="@id/productDetailsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_myCartFragment"
+            app:destination="@id/myCartFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/myCartFragment"
+        android:name="com.rauantasbolat.testApp.ui.MyCartFragment"
+        android:label="fragment_my_cart"
+        tools:layout="@layout/fragment_my_cart" />
 </navigation>

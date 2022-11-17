@@ -55,7 +55,6 @@
             android:textFontWeight="700"
             android:textSize="35sp" />
 
-        <include layout="@layout/bg_my_cart"/>
 
     </LinearLayout>
 </FrameLayout>

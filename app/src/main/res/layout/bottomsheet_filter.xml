@@ -29,7 +29,7 @@
                 android:clickable="true"
                 android:minWidth="48dp"
                 android:minHeight="48dp"
-                android:src="@drawable/ic_s"
+                android:src="@drawable/ic_cancel"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
